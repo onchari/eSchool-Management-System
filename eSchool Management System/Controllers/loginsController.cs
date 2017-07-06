@@ -38,7 +38,7 @@ namespace eSchool_Management_System.Controllers
                             Session["username"] = obj.username;
                             return RedirectToAction("Index", "Home");
                         }
-
+                        //=============
                     }
                 }
                 catch (Exception e)
